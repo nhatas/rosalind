@@ -7,7 +7,7 @@ Given: Two DNA strings s and t of equal length (not exceeding 1 kbp).
 Return: The Hamming distance dH(s,t).
 '''
 
-dataset = open('prob5', 'r')
+dataset = open('rosalind_hamm.txt', 'r')
 f = dataset.readlines()
 hamming = 0
 
