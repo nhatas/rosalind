@@ -12,7 +12,7 @@ Given: A collection of DNA strings in FASTA format having total length at most 1
 Return: The adjacency list corresponding to O3. You may return edges in any order.
 '''
 
-dataset = open('prob7.fa', 'r')
+dataset = open('rosalind_grph.txt', 'r')
 f = dataset.readlines()
 
 fa_dic = {}
